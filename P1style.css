@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+
+/*1 st Main Box*/
+
+.navbar {
+    height: 60px;
+    background-color: #001A23;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+
+/*box 1*/
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    padding: 0.01%
+}
+
+.logo {
+    background-image: url(P1_img/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+/*box 2*/
+
+.address {
+    font-size: 0.9rem;
+    margin-left: 14px;
+    padding: 0.5%
+}
+
+.dd {
+    color: #CCCCCC;
+    font-size: 0.80rem;
+    margin-left: 15px;
+}
+
+.country {
+    font-size: 1.2rem;
+    margin-left: 4px;
+
+}
+
+.addicon {
+    display: flex;
+    align-items: center;
+}
+
+/*box 3*/
+
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: none;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search:hover{
+    border: 3px solid #FEBD68;
+    border-radius: 6px;
+}
+.selection{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-place{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.serchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #FEBD68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    color: #001A23;
+}
+
+/**box 4**/
+
+span{
+    font-size: 0.6rem;
+}
+.Lists{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/**box 6**/
+
+.cart i{
+    font-size: 30px;
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.5%
+}
+/**2nd Main Box**/
+
+.panel{
+    height: 35px;
+    background-color: #012937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+.panel:hover{
+    border: 0px none #012937;
+    border-radius: 0px;
+}
+.option p{
+    display: inline;
+    padding: 0.5%;
+    margin-left: 21px;
+    
+}
+.option{
+    width: 75%;
+    font-size: 0.75rem;
+}
+.deals{
+    font-size: 1.1rem;
+    padding: 0.3%
+}
+/**Home Deal**/
+.home-deal{
+    background-image: url(P1_img/The_Shop.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.link{
+    background-color: #f5f6f6;
+    color: #001A23;
+    height: 40px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 0.4%;
+}
+.link a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/**shop please**/
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #CCCCCC;
+    background-image: url(P1_img/The_Shop\ bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.box{
+    height: 450px;
+    width: 23%;
+    background-color: #f5f6f6;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: #007185;
+}
+a:hover{
+    text-decoration: underline;
+    color: #FEBD68;
+}
+.elecimg{
+    background-image: url(P1_img/electronic.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.Beautyimg{
+    background-image: url(P1_img/beauty.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.pcimg{
+    background-image: url(P1_img/dealinpc.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.lastimg{
+    background-image: url(P1_img/last_min.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.loveimg{
+    background-image: url(P1_img/loved_one.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.topimg{
+    background-image: url(P1_img/top_deal.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.toyimg{
+    background-image: url(P1_img/toy.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.discoverimg{
+    background-image: url(P1_img/discover.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.b1content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/**footer**/
+button{
+    background-color: #013548;
+    color: white;
+    border: none;
+}
+.foot1{
+    background-color: #013548;
+    color: white;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot2{
+    background-color: #012937;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 13px;
+}
+ul a{
+    display: block;
+    color: #f5f6f6;
+    font-size: 0.80rem;
+    margin-top: 12px;
+}
+ul a:hover{
+    text-decoration: underline;
+    color: #f5f6f6;
+}
+.foot3{
+    background-color: #012937;
+    color: #f3f3f3;
+    border-top: 0.5px solid #013548;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2 {
+    background-image: url(P1_img/amazon_logo2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 140px;    
+}
+.foot4{
+    background-color: #001A23;
+    color: #f5f6f6;
+    height: 80px;
+    text-align: center;
+    font-size: 0.75rem;
+}
+.pages{
+    padding-top: 25px;
+}
+.pages a{
+    display: inline;
+    color: #f5f6f6;
+    font-size: 0.80rem;
+    margin-top: 12px;
+}
+.pages a:hover{
+    text-decoration: underline;
+    color: #f5f6f6;
+}
+.cccc{
+    padding-top: 5px;
+}
